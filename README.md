@@ -24,4 +24,14 @@ git config --global user.email "name@domain"
  
  git clone "SSH"
  
- git remote add origin <repository-url>
+ git remote add origin 'repository-url'
+ 
+ **Si deseas realizar un push el procedimiento es el siguiente**
+  #Te ubicas en la ruta del proyecto. ej: cd /Users/mainuser/Desktop/Projects
+ $ git status
+  #Agregar los archivos donde se realizaron los cambios
+ $ git add INFO241_tarea1/ Unidad\ 3\ _\ Tarea\ 1.pdf
+ 
+ $ git commit -m 'Some message about the change'
+
+ $ git push origin 'branch-name'
